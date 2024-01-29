@@ -48,20 +48,6 @@ public:
 };
 
 int main() {
-    HotelRoom hotel("New York City");
-
-    Room room1("Single", 100.00);
-    room1.addAmenity("Free WiFi");
-    room1.addAmenity("TV");
-
-    Room room2("Double", 150.00);
-    room2.addAmenity("Free Breakfast");
-    room2.addAmenity("Gym Access");
-
-    hotel.addRoom(room1);
-    hotel.addRoom(room2);
-
-    hotel.displayHotelDetails();
 
     return 0;
 }
